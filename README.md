@@ -12,7 +12,7 @@
 
 ## 📁 Files
 - `index.html`
-- `style.css`
+- `index.css`
 
 ## 🚀 How to Run
 1. Download or clone this repository
@@ -23,6 +23,6 @@
 - CSS3 (Flexbox, Transitions)
 
 ## 🙋‍♂️ Author
-Your Name – [LinkedIn](https://linkedin.com/in/yourprofile)
+Your Name – [LinkedIn](https://linkedin.com/in/pallavijadar)
 
 ---
