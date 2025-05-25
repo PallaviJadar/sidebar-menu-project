@@ -8,8 +8,7 @@
 - Smooth toggle using checkbox hack
 - Clean and simple design
 
-## 📸 Preview
-![screenshot](screenshot.png) <!-- optional image -->
+<!-- optional image -->
 
 ## 📁 Files
 - `index.html`
