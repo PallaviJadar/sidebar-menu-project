@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+ 
+  
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+
+.main_box{
+    background: url("photo.jpg");
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.btn_one i{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    position:absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    
+    
+}
+.sidebar_menu{
+    position:fixed;
+    left:-300px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgba(255, 255, 255,0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255,0.5);
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 6px rgba(255, 255, 255,0.5);
+
+}
+.sidebar_menu .logo a{
+    position: absolute;
+    left: 50px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.sidebar_menu .btn_two i{
+    color: grey;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    left: 270px;
+    cursor: pointer;    
+
+}
+
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 80px;
+}
+
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+}
+.sidebar_menu .menu i,
+a{
+    color: white;
+    
+   
+}
+.sidebar_menu .menu i{
+    padding-right: 8px;
+}
+.sidebar_menu .social_media{
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    left: 25%;
+    bottom: 50px;
+}
+.sidebar_menu .social_media i{
+    color: white;
+    opacity: 0.5;
+    padding: 0 5px;   
+}
+#check{
+    display: none;
+}
+.sidebar_menu .menu li:hover{
+    box-shadow:0 0 4px rgba(255, 255, 255,0.5);
+    cursor: pointer;
+}
+.btn_one i:hover{
+    font-size: 30px;
+    text-shadow: 1px 1px 4px rgba(225, 225, 225, 20);
+    transition: all 0.3s ease-in-out;
+
+}
+.btn_two i:hover{
+    font-size: 20px;
+    text-shadow: 1px 1px 4px rgba(225, 225, 225, 20);
+
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(1.5);
+    text-shadow: 1px 1px 4px rgba(225, 225, 225, 20);
+    transition: all 0.3s ease-in-out;
+}
+#check:checked ~ .sidebar_menu{
+    left: 0;
+    transition: all 0.8s ease-in-out;
+    
+}
+#check:checked ~ .btn_one i{
+    opacity: 0;
+    left: 300px;
+}
+#check:checked ~ .sidebar_menu.btn_two i{
+    opacity: 1;
+   
+}
+.sidebar_menu .logo a{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding-left: 20px;
+    box-shadow:
+  /* 3px 3px rgb(11, 11, 11), */
+    6px 6px rgb(44, 43, 43)
+  ;
+
+}
+.sidebar_menu .logo img{
+    top: 5px;
+    left: 20px;
+    position: absolute;
+}
+    
+
