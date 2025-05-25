@@ -2,6 +2,10 @@
 
 🔧 A responsive sidebar navigation menu created using only **HTML and CSS**.  
 ✅ No JavaScript used!
+## 🔗 Live Demo
+👉 [Click here to view the live project](https://pallavijadar.github.io/sidebar-menu-project/)
+
+
 
 ## 🌟 Features
 - Responsive layout
