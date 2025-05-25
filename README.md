@@ -23,6 +23,6 @@
 - CSS3 (Flexbox, Transitions)
 
 ## 🙋‍♂️ Author
-Your Name – [LinkedIn](https://linkedin.com/in/pallavijadar)
+Pallavi Jadar – [LinkedIn](https://linkedin.com/in/pallavijadar)
 
 ---
